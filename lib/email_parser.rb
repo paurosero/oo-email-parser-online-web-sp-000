@@ -5,7 +5,7 @@
 
 class EmailParser
 
-attr_accessor :emails
+attr_reader :emails
 
   def initliaze(emails)
     @emails = emails
